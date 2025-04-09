@@ -5,6 +5,8 @@ import 'package:uuid/uuid.dart';
 void main() => runApp(ETMITTK0LoggerApp());
 
 class ETMITTK0LoggerApp extends StatefulWidget {
+  const ETMITTK0LoggerApp({super.key});
+
   @override
   State<ETMITTK0LoggerApp> createState() => _ETMITTK0LoggerAppState();
 }
@@ -35,6 +37,8 @@ class _ETMITTK0LoggerAppState extends State<ETMITTK0LoggerApp> {
 }
 
 class UserProfileScreen extends StatefulWidget {
+  const UserProfileScreen({super.key});
+
   @override
   _UserProfileScreenState createState() => _UserProfileScreenState();
 }
@@ -124,6 +128,8 @@ class _UserProfileScreenState extends State<UserProfileScreen> {
 }
 
 class MainMenuScreen extends StatelessWidget {
+  const MainMenuScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

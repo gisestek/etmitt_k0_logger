@@ -105,10 +105,4 @@ class _NewSessionScreenState extends State<NewSessionScreen> {
   }
 }
 
-double _calculateStandardDeviation(List<double> values) {
-  if (values.isEmpty) return 0;
-  final mean = values.reduce((a, b) => a + b) / values.length;
-  final sumSq = values.map((v) => pow(v - mean, 2)).reduce((a, b) => a + b);
-  return sqrt(sumSq / values.length);
-}
 
